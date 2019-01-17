@@ -6,7 +6,7 @@ def train_test_split(dataSet, ratio=0.8):
     随机切分
     :param dataSet:
     :param ratio:
-    :return train_set,train_label,test_set, test_set:
+    :return train_set,train_label,test_set, test_label:
     """
     size = dataSet.shape[0]
     data_size = round(size * ratio)
